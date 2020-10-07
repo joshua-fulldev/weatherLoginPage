@@ -1,0 +1,157 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.Login {
+  margin: 0;
+  height: 100vh;
+  min-height: 100vh;
+  max-height: 100vh;
+  min-width: 100vh;
+  background-image: url("climate.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+div,p {
+  margin: 0;
+}
+
+.MyLdiv {
+  width: 5vh;
+  height: 5vh;
+  position: absolute;
+  top: 0;
+  left: 51.4%;
+}
+
+.MyLogo {
+  width: 100%;
+  height: 100%;
+  animation-name: App-logo-spin;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+  animation-direction: reverse;
+}
+
+.LoginForm {
+  width: 40%;
+  height: 90vh;
+  margin: 55px 25px auto auto;
+  padding: 10px;
+  background-color: rgb(0, 0, 0);
+  background-color: rgba(0, 0, 0, 0.3);
+  position: absolute;
+  top: 0;
+  right: 0;
+
+  /*Font Properties */
+  font-size: 30px;
+  color: white;
+  font-weight: bolder;
+}
+
+.LoginForm:active, .LoginForm:hover {
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+form {
+  padding: 15px;
+}
+
+.FormHeader {
+  margin: 0;
+  margin-bottom: 10px;
+  padding: 0;
+  text-align: center;
+  font-weight: normal;
+}
+
+label {
+  display: inline-block;
+  width: 96%;
+  height: 50px;
+  margin: 20px;
+  margin-top: 20px;
+}
+
+label:hover {
+  opacity: 0.8;
+}
+
+input {
+  width: 90%;
+  height: 100%;
+  padding: 10px;
+  border-radius: 10px 10px;
+  margin-top: 20px;
+  font-size: 30px;
+  font-weight: normal;
+  color: black;
+}
+
+.CenterForm {
+  text-align: center;
+}
+
+.CheckBox {
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.SubmitButton {
+  color: black;
+  width: 300px;
+  height: 100px;
+  background-color: yellow;
+  filter: brightness(95%);
+  margin-bottom: 170px;
+}
+
+a, a:visited, a:active {
+  text-decoration: none;
+  color: blue;
+}
+
+.WeatherPage {
+  width: 50%;
+  height: 100%;
+}
