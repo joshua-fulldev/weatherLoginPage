@@ -40,15 +40,15 @@
 .Login {
   margin: 0;
   height: 100vh;
-  min-height: 100vh;
-  max-height: 100vh;
-  min-width: 100vh;
+  min-height: 100vmin;
+  max-height: 100vmin;
+  min-width: 100vmin;
   background-image: url("climate.png");
   background-repeat: no-repeat;
   background-size: cover;
 }
 
-div,p {
+div,p,h1 {
   margin: 0;
 }
 
@@ -71,8 +71,8 @@ div,p {
 
 .LoginForm {
   width: 40%;
-  height: 90vh;
-  margin: 55px 25px auto auto;
+  height: auto;
+  margin: 40px 25px auto auto;
   padding: 10px;
   background-color: rgb(0, 0, 0);
   background-color: rgba(0, 0, 0, 0.3);
@@ -81,7 +81,7 @@ div,p {
   right: 0;
 
   /*Font Properties */
-  font-size: 30px;
+  font-size: 16px;
   color: white;
   font-weight: bolder;
 }
@@ -96,7 +96,7 @@ form {
 
 .FormHeader {
   margin: 0;
-  margin-bottom: 10px;
+  margin-bottom: 5px;
   padding: 0;
   text-align: center;
   font-weight: normal;
@@ -105,9 +105,9 @@ form {
 label {
   display: inline-block;
   width: 96%;
-  height: 50px;
-  margin: 20px;
-  margin-top: 20px;
+  height: 20px;
+  margin: 10px;
+  margin-top: 10px;
 }
 
 label:hover {
@@ -119,8 +119,8 @@ input {
   height: 100%;
   padding: 10px;
   border-radius: 10px 10px;
-  margin-top: 20px;
-  font-size: 30px;
+  margin-top: 10px;
+  font-size: 16px;
   font-weight: normal;
   color: black;
 }
@@ -139,11 +139,12 @@ input {
 
 .SubmitButton {
   color: black;
-  width: 300px;
-  height: 100px;
+  font-size: 16px;
+  width: 26%;
+  height: 10%;
   background-color: yellow;
   filter: brightness(95%);
-  margin-bottom: 170px;
+  margin-bottom: 100px;
 }
 
 a, a:visited, a:active {
@@ -153,5 +154,58 @@ a, a:visited, a:active {
 
 .WeatherPage {
   width: 50%;
-  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  text-align: center;
+  font-size: 24px;
+}
+
+.SecondPage {
+  padding: 10%;
+}
+
+.CompanyName {
+  font-size: 3rem;
+  font-weight: 100;
+  display: inline-block;
+}
+
+.LogoCom {
+  width: 5%;
+  height: 5%;
+}
+
+.Space-Top {
+  margin-top: 20px;
+}
+
+.InfoLogo {
+  width: 25%;
+  height: 30%;
+  position: absolute;
+  top: 85%;
+  left: 40%;
+}
+
+.A1 {
+  z-index: 3;
+  opacity: 50;
+}
+
+.A2 {
+  z-index: 1;
+  opacity: 0;
+}
+
+.Temperature {
+  color: white;
+  font-weight: 200;
+}
+
+.SearchBar {
+  width: 55%;
+  position: absolute;
+  bottom: 25%;
+  left: 2%;
 }
